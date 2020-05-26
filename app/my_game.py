@@ -4,7 +4,7 @@ import random
 from game_utils.rock_paper_scissors import determine_winner # see: https://github.com/s2t2/game-utils-py
 from dotenv import load_dotenv # see: https://github.com/theskumar/python-dotenv
 
-load_dotenv()
+load_dotenv() # look inside the .env file
 
 USER_NAME = os.getenv("USER_NAME", default="Player One")
 
